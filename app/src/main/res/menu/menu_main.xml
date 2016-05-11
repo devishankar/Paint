@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.github.devishankar.paint.MainActivity">
+    <item
+        android:id="@+id/action_choose"
+        android:orderInCategory="100"
+        android:title="@string/action_choose"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/take_photo"
+        android:orderInCategory="101"
+        android:title="@string/action_take_photo"
+        app:showAsAction="ifRoom" />
+</menu>
